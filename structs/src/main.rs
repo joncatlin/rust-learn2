@@ -1,3 +1,4 @@
+#[derive(Debug)]
 struct Data {
     field1: String,
     field2: String,
@@ -20,6 +21,10 @@ fn main() {
 
     println!("data1 = field1:[{}], field2:[{}], field3:[{}], field4:[{}]", data1.field1, data1.field2, data1.field3, data1.field4);
     println!("data2 = field1:[{}], field2:[{}], field3:[{}], field4:[{}]", data2.field1, data2.field2, data2.field3, data2.field4);
+
+    // Added the Debug trsit to the struct so we can print out the contents in a simple way and have it look better
+    println!("data2 with a better formatting = {:#?}", data2);
+
 
     // Create a Tuple Struct (named tuple) and print out its values
     let named_tuple = build_named_tuple(1,2,3);
