@@ -39,6 +39,14 @@ enum IpAddr {
     V6(Ipv6Addr)
 }
 
+// Use of match control flow operator
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter
+}
+    
 fn main() {
 
     // Create some diary entries
@@ -63,4 +71,18 @@ fn main() {
     // Print the address out
     println!("ip1 = {:?}", ip1);    
     println!("ip2 = {:?}", ip2);    
+
+    // Use of Option enum
+    let some_number = Some(5);
+    let some_string = Some("Hi there");
+    let absent_number: Option<i32> = None;
+}
+
+
+fn value_in_cents (coin: Coin) -> u32 {
+    match coin {
+        Coin::Penny => 1,
+        Coin::Nickel => 5,
+        Coin::
+    }
 }
