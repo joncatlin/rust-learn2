@@ -1,0 +1,1 @@
+C:\Users\joncatlin\Documents\Development\Repositories\Github\rust-learn2\send_email\target\debug\send_email.exe: C:\Users\joncatlin\Documents\Development\Repositories\Github\rust-learn2\send_email\src\main.rs
