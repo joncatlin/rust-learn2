@@ -1,1 +1,2 @@
-cargo:rustc-link-search=C:\Program Files\wkhtmltopdf\lib
+cargo:rustc-link-search=D:\development\repos\github\rust-learn2\pdf/lib/
+cargo:rustc-link-lib=wkhtmltox
