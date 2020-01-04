@@ -1,0 +1,12 @@
+[package]
+name = "pdf"
+version = "0.1.0"
+authors = ["DESKTOP-CM4DN2T\\joncatlin <jonc@destini.com>"]
+edition = "2018"
+# Specify a uild script so that the native c library can be linked into the final exe
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wkhtmltopdf = "0.3.0"
